@@ -1,0 +1,15 @@
+Index: Jenkinsfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Jenkinsfile	(revision 1727def6fd99624508733fed785fa7fec67d395a)
++++ Jenkinsfile	(date 1588704870748)
+@@ -8,6 +8,7 @@
+             steps {
+                 script {
+                     echo 'Test jenkinsfile patch -1'
++                    echo 'Test jenkinsfile patch -2'
+                 }
+             }
+         }
